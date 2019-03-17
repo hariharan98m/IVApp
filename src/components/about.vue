@@ -52,7 +52,7 @@
               
                 <article class="message notification is-primary">
                     <div class="message-body is-size-5 ">
-                    We get you a Place to strike Professional Relationships with Institutes. 
+                    A Place to strike Professional Relationships with Institutes. 
                     </div>
                 </article>
                 </div>
