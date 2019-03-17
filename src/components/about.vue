@@ -51,8 +51,13 @@
                 <div class="column is-half">
               
                 <article class="message notification is-primary">
+<<<<<<< HEAD
+                    <div class="message-body is-size-5 ">
+                    A Place to strike Professional Relationships with Institutes. 
+=======
                     <div class="message-body is-size-5 is-size-7-mobile">
                     We get you a Place to strike Professional Relationships with Institutes. 
+>>>>>>> 31f8d5d2d6e030321dc5afe9d25c343266feaf59
                     </div>
                 </article>
                 </div>

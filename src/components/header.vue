@@ -6,14 +6,14 @@
      <a class="navbar-item brand-text" href="../">
           <h2 class="title">JetPacks</h2>
     </a>
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" v-on:click="isActive=!isActive">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
 
-  <div id="navbarBasicExample" class="navbar-menu">
+  <div id="navbarBasicExample" :class="{'navbar-menu':true,  'is-active': isActive}" >
     <div class="navbar-start">
         <router-link class="navbar-item" exact to="/" >Home</router-link>
       
@@ -92,7 +92,8 @@ export default{
 
       return {
         logo: '../images/bulma-logo.png',
-        url:''
+        url:'',
+        isActive: false
       }
     },
 
