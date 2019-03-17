@@ -1,7 +1,7 @@
 <template>
                                     
 
-<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+<nav class="navbar is-fixed-top has-background-white" role="navigation" aria-label="main navigation" style="border-top:none">
   <div class="navbar-brand">
      <a class="navbar-item brand-text" href="../">
           <h2 class="title">JetPacks</h2>
@@ -130,7 +130,7 @@ export default{
             });
         }
     }
-    
+
   }
 </script>
 
