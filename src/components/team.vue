@@ -1,7 +1,8 @@
 <template>
   <div>
+    
       <div class="hero-body">
-				<div class="container">
+				<div class="container has-text-centered">
 				<nav class="level">
             <div class="level-item has-text-centered">
                 <div>
