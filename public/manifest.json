@@ -1,0 +1,15 @@
+{
+    "name": "Jetpacks-IV",
+    "short_name": "Jetpacks",
+    "start_url": "index.html",
+    "display": "standalone",
+    "theme_color": "#009cf4",
+    "background_color": "#fff",
+    "icons": [
+      {
+        "src": "./src/images/fighter.png", 
+        "sizes": "",
+        "type": "png" 
+      }
+    ]
+  }

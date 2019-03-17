@@ -1,5 +1,6 @@
 <template>
-      <section class="hero is-fullheight has-carousel has-background-white" v-bind:class="backg" >
+      <section class="hero is-fullheight has-carousel has-background-white v-bind:class=backg"  >
+          
     
         <div class="hero-body">
             <div class="container has-text-centered">

@@ -45,6 +45,28 @@ import store from './store'
 Vue.use(VueResource);
 Vue.use(VueRouter);
 
+//#############################################################################################
+
+//Production mode for WEBAPP
+
+const prod = process.env.NODE_ENV === 'production'
+const shouldSWDev = 'serviceWorker' in navigator && !prod
+const shouldSW = 'serviceWorker' in navigator && prod
+if (shouldSW) {
+  navigator.serviceWorker.register('/service-worker.js').then(() => {
+    console.log("Service Worker Registered!")
+  })
+}
+
+//Dev service worker unregister
+
+else if (shouldSWDev) {
+  navigator.serviceWorker.register('/service-workder-dev.js').then(() => {
+    console.log('Service Worker Registered!')
+  })
+}
+//##############################################################################################
+
 // Register routes
 const router = new VueRouter({
   routes: Routes,
