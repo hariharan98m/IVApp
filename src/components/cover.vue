@@ -10,14 +10,14 @@
                         </figure>
                     </div>
                     <div class="column is-6 is-offset-1">
-                        <h1 class="title is-1 is-large is-dark">
+                        <h1 class="title is-size-1 is-size-3-mobile is-large is-dark">
                             JetPacks
                         </h1>
-                        <h2 class="subtitle is-3 is-dark" style="padding-top:10px;">
+                        <h2 class="subtitle is-size-3 is-size-5-mobile is-dark" style="padding-top:10px;">
                             A Ride unlike any Road Trip. <br>
                             Your IV destination is here.
                         </h2>
-                        <p class="is-size-6" > Read up on what we have to offer you</p>
+                        <p class="is-size-6 is-size-8-mobile" > Read up on what we have to offer you</p>
                         <br>
                         <p class="has-text-centered">
                             
